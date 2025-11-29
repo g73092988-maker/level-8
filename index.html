@@ -227,11 +227,11 @@ document.getElementById("finishBtn").onclick = ()=>{
     return `<div class='result-line'><div>${label}</div><div class='${ok?"ok":"nok"}'>${ok?"درست":"نادرست"}</div></div>`;
   }
 
-  r.innerHTML += line("الف (B−A)", q1ok);
-  r.innerHTML += line("ب n(A∪B)", q2ok);
-  r.innerHTML += line("ج (A−B)∪(A∩B)", q3ok);
-  r.innerHTML += line("د {1,4}∈A", q4ok);
-  r.innerHTML += line("ه 7∈B", q5ok);
+  r.innerHTML += line("الف)جواب صحیح:{6,7}", q1ok);
+  r.innerHTML += line("ب)جواب صحیح:8", q2ok);
+  r.innerHTML += line("ج)جواب صحیح:{9,5,4,3,2,1}", q3ok);
+  r.innerHTML += line("د)", q4ok);
+  r.innerHTML += line("ه)", q5ok);
 };
 </script>
 </body>
